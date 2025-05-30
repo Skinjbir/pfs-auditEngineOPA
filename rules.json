@@ -1,0 +1,1553 @@
+[
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_lock_waits",
+    "label": "Tf_google_sql_database_pg_enable_log_lock_waits",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_lock_waits.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_require_ssl",
+    "label": "Tf_google_sql_database_require_ssl",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/require_ssl.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_sql_server_disable_contained_db_auth",
+    "label": "Tf_google_sql_database_sql_server_disable_contained_db_auth",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/sql_server_disable_contained_db_auth.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_connections",
+    "label": "Tf_google_sql_database_pg_enable_log_connections",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_connections.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_temp_files",
+    "label": "Tf_google_sql_database_pg_enable_log_temp_files",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_temp_files.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_mysql_no_local_infile",
+    "label": "Tf_google_sql_database_mysql_no_local_infile",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/mysql_no_local_infile.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_sql_server_disable_cross_db_ownership",
+    "label": "Tf_google_sql_database_sql_server_disable_cross_db_ownership",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/sql_server_disable_cross_db_ownership.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_automated_backups",
+    "label": "Tf_google_sql_database_automated_backups",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/automated_backups.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_disconnections",
+    "label": "Tf_google_sql_database_pg_enable_log_disconnections",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_disconnections.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_min_messages",
+    "label": "Tf_google_sql_database_pg_enable_log_min_messages",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_min_messages.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_enable_log_checkpoints",
+    "label": "Tf_google_sql_database_pg_enable_log_checkpoints",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_enable_log_checkpoints.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_no_public_ip",
+    "label": "Tf_google_sql_database_no_public_ip",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/no_public_ip.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_pg_disable_log_min_duration",
+    "label": "Tf_google_sql_database_pg_disable_log_min_duration",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/sql_database/pg_disable_log_min_duration.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_sql_database_no_public_access",
+    "label": "Tf_google_sql_database_no_public_access",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/sql_database/no_public_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_dns_dnssec_enabled",
+    "label": "Tf_google_dns_dnssec_enabled",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/dns/dnssec_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_dns_dnssec_key_signing_key",
+    "label": "Tf_google_dns_dnssec_key_signing_key",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/dns/dnssec_key_signing_key.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_dns_dnssec_zone_signing_key",
+    "label": "Tf_google_dns_dnssec_zone_signing_key",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/dns/dnssec_zone_signing_key.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_storage_not_public",
+    "label": "Tf_google_storage_not_public",
+    "cloud_provider": "google",
+    "severity": "Critical",
+    "rego_path": "google/storage/not_public.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_storage_uniform_access",
+    "label": "Tf_google_storage_uniform_access",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/storage/uniform_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_kms_cryptokey_rotate",
+    "label": "Tf_google_kms_cryptokey_rotate",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/kms/cryptokey_rotate.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_kms_no_anonymous_access",
+    "label": "Tf_google_kms_no_anonymous_access",
+    "cloud_provider": "google",
+    "severity": "Critical",
+    "rego_path": "google/kms/no_anonymous_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_iam_kms_role_limits",
+    "label": "Tf_google_iam_kms_role_limits",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/iam/kms_role_limits.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_iam_service_account_no_admin",
+    "label": "Tf_google_iam_service_account_no_admin",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/iam/service_account_no_admin.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_iam_no_service_account_roles",
+    "label": "Tf_google_iam_no_service_account_roles",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/iam/no_service_account_roles.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_iam_service_account_no_user_keys",
+    "label": "Tf_google_iam_service_account_no_user_keys",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/iam/service_account_no_user_keys.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_subnet_private_google_access",
+    "label": "Tf_google_compute_subnet_private_google_access",
+    "cloud_provider": "google",
+    "severity": "Low",
+    "rego_path": "google/compute/subnet_private_google_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_block_project_ssh_keys",
+    "label": "Tf_google_compute_block_project_ssh_keys",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/block_project_ssh_keys.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_disable_ip_forwarding",
+    "label": "Tf_google_compute_disable_ip_forwarding",
+    "cloud_provider": "google",
+    "severity": "Low",
+    "rego_path": "google/compute/disable_ip_forwarding.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_disk_encryption",
+    "label": "Tf_google_compute_disk_encryption",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/disk_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_firewall_port_3389",
+    "label": "Tf_google_compute_firewall_port_3389",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/compute/firewall_port_3389.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_shielded_vm",
+    "label": "Tf_google_compute_shielded_vm",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/shielded_vm.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_disable_serial_ports",
+    "label": "Tf_google_compute_disable_serial_ports",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/compute/disable_serial_ports.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_firewall_port_22",
+    "label": "Tf_google_compute_firewall_port_22",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/compute/firewall_port_22.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_no_public_ip",
+    "label": "Tf_google_compute_no_public_ip",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/no_public_ip.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_no_default_service_account",
+    "label": "Tf_google_compute_no_default_service_account",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/no_default_service_account.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_subnetwork_flow_logs",
+    "label": "Tf_google_compute_subnetwork_flow_logs",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/subnetwork_flow_logs.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_no_default_service_account_with_scopes",
+    "label": "Tf_google_compute_no_default_service_account_with_scopes",
+    "cloud_provider": "google",
+    "severity": "High",
+    "rego_path": "google/compute/no_default_service_account_with_scopes.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_compute_proxy_ssl_policy",
+    "label": "Tf_google_compute_proxy_ssl_policy",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/compute/proxy_ssl_policy.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_logging_audit_config_exemptions",
+    "label": "Tf_google_logging_audit_config_exemptions",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/logging/audit_config_exemptions.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_logging_bucket_lock",
+    "label": "Tf_google_logging_bucket_lock",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/logging/bucket_lock.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_logging_audit_config_logtype",
+    "label": "Tf_google_logging_audit_config_logtype",
+    "cloud_provider": "google",
+    "severity": "Medium",
+    "rego_path": "google/logging/audit_config_logtype.rego"
+  }
+,
+  {
+    "id": "rules.tf_google_bigquery_no_public_access",
+    "label": "Tf_google_bigquery_no_public_access",
+    "cloud_provider": "google",
+    "severity": "Critical",
+    "rego_path": "google/bigquery/no_public_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_lambda_permission_source_conditions",
+    "label": "Tf_aws_lambda_permission_source_conditions",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/lambda/permission_source_conditions.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_lambda_function_not_public",
+    "label": "Tf_aws_lambda_function_not_public",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/lambda/function_not_public.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_encryption",
+    "label": "Tf_aws_cloudtrail_encryption",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/cloudtrail/encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_target",
+    "label": "Tf_aws_cloudtrail_target",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/cloudtrail/target.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_cloudwatch",
+    "label": "Tf_aws_cloudtrail_cloudwatch",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudtrail/cloudwatch.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_management_events",
+    "label": "Tf_aws_cloudtrail_management_events",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudtrail/management_events.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_log_validation",
+    "label": "Tf_aws_cloudtrail_log_validation",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudtrail/log_validation.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudtrail_s3_access_logging",
+    "label": "Tf_aws_cloudtrail_s3_access_logging",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudtrail/s3_access_logging.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_vpc_nacl_ingress_22",
+    "label": "Tf_aws_vpc_nacl_ingress_22",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/vpc/nacl_ingress_22.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_vpc_vpc_flow_logging_enabled",
+    "label": "Tf_aws_vpc_vpc_flow_logging_enabled",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/vpc/vpc_flow_logging_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_vpc_default_security_group",
+    "label": "Tf_aws_vpc_default_security_group",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/vpc/default_security_group.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_vpc_nacl_ingress_3389",
+    "label": "Tf_aws_vpc_nacl_ingress_3389",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/vpc/nacl_ingress_3389.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_sns_http_subscription",
+    "label": "Tf_aws_sns_http_subscription",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/sns/http_subscription.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_elb_http_listener",
+    "label": "Tf_aws_elb_http_listener",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/elb/http_listener.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_elb_cross_zone",
+    "label": "Tf_aws_elb_cross_zone",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/elb/cross_zone.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_elb_access_log_enabled",
+    "label": "Tf_aws_elb_access_log_enabled",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/elb/access_log_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_dynamodb_point_in_time_recovery_enabled",
+    "label": "Tf_aws_dynamodb_point_in_time_recovery_enabled",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/dynamodb/point_in_time_recovery_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_dynamodb_dynamodb_encryption",
+    "label": "Tf_aws_dynamodb_dynamodb_encryption",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/dynamodb/dynamodb_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_api_gateway_classic_custom_domain_name",
+    "label": "Tf_aws_api_gateway_classic_custom_domain_name",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/api_gateway/classic_custom_domain_name.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_waf_known_bad_inputs",
+    "label": "Tf_aws_waf_known_bad_inputs",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/waf/known_bad_inputs.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudfront_logging",
+    "label": "Tf_aws_cloudfront_logging",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudfront/logging.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudfront_origin",
+    "label": "Tf_aws_cloudfront_origin",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudfront/origin.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudfront_geo_restrictions",
+    "label": "Tf_aws_cloudfront_geo_restrictions",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudfront/geo_restrictions.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudfront_viewer_https",
+    "label": "Tf_aws_cloudfront_viewer_https",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudfront/viewer_https.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudfront_http_monitor",
+    "label": "Tf_aws_cloudfront_http_monitor",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudfront/http_monitor.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_redshift_cluster_public",
+    "label": "Tf_aws_redshift_cluster_public",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/redshift/cluster_public.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_kms_key_rotation",
+    "label": "Tf_aws_kms_key_rotation",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/kms/key_rotation.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_kms_key_not_public",
+    "label": "Tf_aws_kms_key_not_public",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/kms/key_not_public.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_3389",
+    "label": "Tf_aws_security_groups_ingress_3389",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_3389.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_2383",
+    "label": "Tf_aws_security_groups_ingress_2383",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_2383.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_27018",
+    "label": "Tf_aws_security_groups_ingress_27018",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_27018.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_3000",
+    "label": "Tf_aws_security_groups_ingress_3000",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_3000.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_2484",
+    "label": "Tf_aws_security_groups_ingress_2484",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_2484.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_137",
+    "label": "Tf_aws_security_groups_ingress_137",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_137.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_135",
+    "label": "Tf_aws_security_groups_ingress_135",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_135.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_138",
+    "label": "Tf_aws_security_groups_ingress_138",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_138.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_11215",
+    "label": "Tf_aws_security_groups_ingress_11215",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_11215.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_8000",
+    "label": "Tf_aws_security_groups_ingress_8000",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_8000.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_2382",
+    "label": "Tf_aws_security_groups_ingress_2382",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_2382.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_5800",
+    "label": "Tf_aws_security_groups_ingress_5800",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_5800.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_139",
+    "label": "Tf_aws_security_groups_ingress_139",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_139.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_1434",
+    "label": "Tf_aws_security_groups_ingress_1434",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_1434.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_5900",
+    "label": "Tf_aws_security_groups_ingress_5900",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_5900.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_4505",
+    "label": "Tf_aws_security_groups_ingress_4505",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_4505.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_23",
+    "label": "Tf_aws_security_groups_ingress_23",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_23.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_80",
+    "label": "Tf_aws_security_groups_ingress_80",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_80.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_11214",
+    "label": "Tf_aws_security_groups_ingress_11214",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_11214.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_inbound_all_private",
+    "label": "Tf_aws_security_groups_inbound_all_private",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/security_groups/inbound_all_private.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_3306",
+    "label": "Tf_aws_security_groups_ingress_3306",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_3306.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_4506",
+    "label": "Tf_aws_security_groups_ingress_4506",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_4506.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_rds",
+    "label": "Tf_aws_security_groups_ingress_rds",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_rds.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_27017",
+    "label": "Tf_aws_security_groups_ingress_27017",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_27017.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_elb_all",
+    "label": "Tf_aws_security_groups_elb_all",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/elb_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_22",
+    "label": "Tf_aws_security_groups_ingress_22",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_22.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_ec2_389",
+    "label": "Tf_aws_security_groups_ingress_ec2_389",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_ec2_389.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_3020",
+    "label": "Tf_aws_security_groups_ingress_3020",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_3020.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_61621",
+    "label": "Tf_aws_security_groups_ingress_61621",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_61621.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_all",
+    "label": "Tf_aws_security_groups_ingress_all",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_9300",
+    "label": "Tf_aws_security_groups_ingress_9300",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_9300.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_9200",
+    "label": "Tf_aws_security_groups_ingress_9200",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_9200.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_5500",
+    "label": "Tf_aws_security_groups_ingress_5500",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_5500.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_5432",
+    "label": "Tf_aws_security_groups_ingress_5432",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_5432.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_1433",
+    "label": "Tf_aws_security_groups_ingress_1433",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_1433.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_ec2_all",
+    "label": "Tf_aws_security_groups_ingress_ec2_all",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_ec2_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_2379",
+    "label": "Tf_aws_security_groups_ingress_2379",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_2379.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_inbound_all",
+    "label": "Tf_aws_security_groups_inbound_all",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/inbound_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_27019",
+    "label": "Tf_aws_security_groups_ingress_27019",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_27019.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_636",
+    "label": "Tf_aws_security_groups_ingress_636",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_636.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_groups_ingress_7001",
+    "label": "Tf_aws_security_groups_ingress_7001",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/security_groups/ingress_7001.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_ec2_instance_profile",
+    "label": "Tf_aws_ec2_instance_profile",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/ec2/instance_profile.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_ec2_asg",
+    "label": "Tf_aws_ec2_asg",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/ec2/asg.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_ec2_instance_no_public_ip",
+    "label": "Tf_aws_ec2_instance_no_public_ip",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/ec2/instance_no_public_ip.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_sqs_payload_encryption",
+    "label": "Tf_aws_sqs_payload_encryption",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/sqs/payload_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_sqs_granular_access",
+    "label": "Tf_aws_sqs_granular_access",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/sqs/granular_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_ebs_ebs_volume_encryption",
+    "label": "Tf_aws_ebs_ebs_volume_encryption",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/ebs/ebs_volume_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_security_group_ingress_anywhere",
+    "label": "Tf_aws_security_group_ingress_anywhere",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/security_group/ingress_anywhere.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_elasticache_encryption",
+    "label": "Tf_aws_elasticache_encryption",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/elasticache/encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_encryption",
+    "label": "Tf_aws_rds_encryption",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/rds/encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_rds_instance_publicly_accessible",
+    "label": "Tf_aws_rds_rds_instance_publicly_accessible",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/rds/rds_instance_publicly_accessible.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_delete_protection_enabled",
+    "label": "Tf_aws_rds_delete_protection_enabled",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/rds/delete_protection_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_multi_az_cluster",
+    "label": "Tf_aws_rds_multi_az_cluster",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/rds/multi_az_cluster.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_multi_az",
+    "label": "Tf_aws_rds_multi_az",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/rds/multi_az.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_instance_engine",
+    "label": "Tf_aws_rds_instance_engine",
+    "cloud_provider": "aws",
+    "severity": "Low",
+    "rego_path": "aws/rds/instance_engine.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_rds_backup_retention_period",
+    "label": "Tf_aws_rds_backup_retention_period",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/rds/backup_retention_period.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_encryption",
+    "label": "Tf_aws_s3_encryption",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/s3/encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_replication",
+    "label": "Tf_aws_s3_replication",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/s3/replication.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_block_public_access",
+    "label": "Tf_aws_s3_block_public_access",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/s3/block_public_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_bucket_is_public",
+    "label": "Tf_aws_s3_bucket_is_public",
+    "cloud_provider": "aws",
+    "severity": "Critical",
+    "rego_path": "aws/s3/bucket_is_public.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_versioning_lifecycle_enabled",
+    "label": "Tf_aws_s3_versioning_lifecycle_enabled",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/s3/versioning_lifecycle_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_bucketpolicy_allowall",
+    "label": "Tf_aws_s3_bucketpolicy_allowall",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/s3/bucketpolicy_allowall.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_cloudtrail_s3_data_logging_write",
+    "label": "Tf_aws_s3_cloudtrail_s3_data_logging_write",
+    "cloud_provider": "aws",
+    "severity": "Low",
+    "rego_path": "aws/s3/cloudtrail_s3_data_logging_write.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_bucketpolicy_allowlist",
+    "label": "Tf_aws_s3_bucketpolicy_allowlist",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/s3/bucketpolicy_allowlist.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_https_access",
+    "label": "Tf_aws_s3_https_access",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/s3/https_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_bucket_access_logging",
+    "label": "Tf_aws_s3_bucket_access_logging",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/s3/bucket_access_logging.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_bucket_config_public_read",
+    "label": "Tf_aws_s3_bucket_config_public_read",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/s3/bucket_config_public_read.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_s3_cloudtrail_s3_data_logging_read",
+    "label": "Tf_aws_s3_cloudtrail_s3_data_logging_read",
+    "cloud_provider": "aws",
+    "severity": "Low",
+    "rego_path": "aws/s3/cloudtrail_s3_data_logging_read.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_admin_policy",
+    "label": "Tf_aws_iam_admin_policy",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/iam/admin_policy.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_reuse_4",
+    "label": "Tf_aws_iam_password_reuse_4",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_reuse_4.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_instance_profile_s3_nolist",
+    "label": "Tf_aws_iam_instance_profile_s3_nolist",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/instance_profile_s3_nolist.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_s3_nolist",
+    "label": "Tf_aws_iam_s3_nolist",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/s3_nolist.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_upper_case",
+    "label": "Tf_aws_iam_password_upper_case",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_upper_case.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_pci_compliant",
+    "label": "Tf_aws_iam_password_pci_compliant",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_pci_compliant.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_trust_extid_mfa",
+    "label": "Tf_aws_iam_trust_extid_mfa",
+    "cloud_provider": "aws",
+    "severity": "High",
+    "rego_path": "aws/iam/trust_extid_mfa.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_user_group_attachment",
+    "label": "Tf_aws_iam_user_group_attachment",
+    "cloud_provider": "aws",
+    "severity": "Low",
+    "rego_path": "aws/iam/user_group_attachment.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_lower_case",
+    "label": "Tf_aws_iam_password_lower_case",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_lower_case.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_expiration",
+    "label": "Tf_aws_iam_password_expiration",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_expiration.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_number",
+    "label": "Tf_aws_iam_password_number",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_number.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_policy",
+    "label": "Tf_aws_iam_policy",
+    "cloud_provider": "aws",
+    "severity": "Low",
+    "rego_path": "aws/iam/policy.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_reuse",
+    "label": "Tf_aws_iam_password_reuse",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_reuse.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_symbol",
+    "label": "Tf_aws_iam_password_symbol",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_symbol.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_password_length",
+    "label": "Tf_aws_iam_password_length",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/password_length.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_iam_assume_role_wildcard",
+    "label": "Tf_aws_iam_assume_role_wildcard",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/iam/assume_role_wildcard.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudwatch_encrypted_logs",
+    "label": "Tf_aws_cloudwatch_encrypted_logs",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudwatch/encrypted_logs.rego"
+  }
+,
+  {
+    "id": "rules.tf_aws_cloudwatch_alarm_actions",
+    "label": "Tf_aws_cloudwatch_alarm_actions",
+    "cloud_provider": "aws",
+    "severity": "Medium",
+    "rego_path": "aws/cloudwatch/alarm_actions.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_mysql_enforce_ssl_mysql",
+    "label": "Tf_azurerm_mysql_enforce_ssl_mysql",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/mysql/enforce_ssl_mysql.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_mysql_no_inbound_azure_all_mysql",
+    "label": "Tf_azurerm_mysql_no_inbound_azure_all_mysql",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/mysql/no_inbound_azure_all_mysql.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_storage_network_access_trust_microsoft",
+    "label": "Tf_azurerm_storage_network_access_trust_microsoft",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/storage/network_access_trust_microsoft.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_storage_secure_transfer",
+    "label": "Tf_azurerm_storage_secure_transfer",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/storage/secure_transfer.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_storage_network_access_deny",
+    "label": "Tf_azurerm_storage_network_access_deny",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/storage/network_access_deny.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_storage_container_private_access",
+    "label": "Tf_azurerm_storage_container_private_access",
+    "cloud_provider": "azurerm",
+    "severity": "Critical",
+    "rego_path": "azurerm/storage/container_private_access.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_network_application_gateway_waf_enabled",
+    "label": "Tf_azurerm_network_application_gateway_waf_enabled",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/network/application_gateway_waf_enabled.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_network_inbound_port_22",
+    "label": "Tf_azurerm_network_inbound_port_22",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/network/inbound_port_22.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_network_inbound_port_3389",
+    "label": "Tf_azurerm_network_inbound_port_3389",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/network/inbound_port_3389.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_network_flow_log_90days",
+    "label": "Tf_azurerm_network_flow_log_90days",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/network/flow_log_90days.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_secret_secret_expiration",
+    "label": "Tf_azurerm_secret_secret_expiration",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/secret/secret_expiration.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_app_service_web_app_incoming_client_certs",
+    "label": "Tf_azurerm_app_service_web_app_incoming_client_certs",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/app_service/web_app_incoming_client_certs.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_app_service_web_app_https_only",
+    "label": "Tf_azurerm_app_service_web_app_https_only",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/app_service/web_app_https_only.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_app_service_web_app_auth",
+    "label": "Tf_azurerm_app_service_web_app_auth",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/app_service/web_app_auth.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_app_service_web_app_ad_register",
+    "label": "Tf_azurerm_app_service_web_app_ad_register",
+    "cloud_provider": "azurerm",
+    "severity": "Low",
+    "rego_path": "azurerm/app_service/web_app_ad_register.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_app_service_web_app_min_tls_12",
+    "label": "Tf_azurerm_app_service_web_app_min_tls_12",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/app_service/web_app_min_tls_12.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_authorization_custom_owner_role",
+    "label": "Tf_azurerm_authorization_custom_owner_role",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/authorization/custom_owner_role.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_security_center_send_email_high_sev",
+    "label": "Tf_azurerm_security_center_send_email_high_sev",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/security_center/send_email_high_sev.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_kubernetes_cluster_instances_rbac",
+    "label": "Tf_azurerm_kubernetes_cluster_instances_rbac",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/kubernetes/cluster_instances_rbac.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_key_vault_recoverable",
+    "label": "Tf_azurerm_key_vault_recoverable",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/key/vault_recoverable.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_monitor_log_profile_categories",
+    "label": "Tf_azurerm_monitor_log_profile_categories",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/monitor/log_profile_categories.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_monitor_log_profile_retention",
+    "label": "Tf_azurerm_monitor_log_profile_retention",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/monitor/log_profile_retention.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_monitor_log_profile_locations",
+    "label": "Tf_azurerm_monitor_log_profile_locations",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/monitor/log_profile_locations.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_monitor_key_vault_logging",
+    "label": "Tf_azurerm_monitor_key_vault_logging",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/monitor/key_vault_logging.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_sql_no_inbound_all",
+    "label": "Tf_azurerm_sql_no_inbound_all",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/sql/no_inbound_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_sql_auditing",
+    "label": "Tf_azurerm_sql_auditing",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/sql/auditing.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_sql_auditing_retention_90days",
+    "label": "Tf_azurerm_sql_auditing_retention_90days",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/sql/auditing_retention_90days.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_sql_no_inbound_azure_all",
+    "label": "Tf_azurerm_sql_no_inbound_azure_all",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/sql/no_inbound_azure_all.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_vm_data_disk_encryption",
+    "label": "Tf_azurerm_vm_data_disk_encryption",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/vm/data_disk_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_vm_unattached_disk_encryption",
+    "label": "Tf_azurerm_vm_unattached_disk_encryption",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/vm/unattached_disk_encryption.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_no_inbound_azure_all_postgresql",
+    "label": "Tf_azurerm_postgresql_no_inbound_azure_all_postgresql",
+    "cloud_provider": "azurerm",
+    "severity": "High",
+    "rego_path": "azurerm/postgresql/no_inbound_azure_all_postgresql.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_log_connections",
+    "label": "Tf_azurerm_postgresql_configuration_log_connections",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_log_connections.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_enforce_ssl_postgresql",
+    "label": "Tf_azurerm_postgresql_enforce_ssl_postgresql",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/enforce_ssl_postgresql.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_log_checkpoints",
+    "label": "Tf_azurerm_postgresql_configuration_log_checkpoints",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_log_checkpoints.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_log_duration",
+    "label": "Tf_azurerm_postgresql_configuration_log_duration",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_log_duration.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_connection_throttling",
+    "label": "Tf_azurerm_postgresql_configuration_connection_throttling",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_connection_throttling.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_log_retention_days",
+    "label": "Tf_azurerm_postgresql_configuration_log_retention_days",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_log_retention_days.rego"
+  }
+,
+  {
+    "id": "rules.tf_azurerm_postgresql_configuration_log_disconnections",
+    "label": "Tf_azurerm_postgresql_configuration_log_disconnections",
+    "cloud_provider": "azurerm",
+    "severity": "Medium",
+    "rego_path": "azurerm/postgresql/configuration_log_disconnections.rego"
+  }
+]
